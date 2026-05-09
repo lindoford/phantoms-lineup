@@ -325,19 +325,16 @@ var GAME = {
 
   // All players in batting order (1 through however many you have).
   batting: [
-    "Sawyer",    //  1
-    "Nico",      //  2  (switched with Ember)
-    "Samantha",  //  3
-    "Kai",       //  4
-    "Joey",      //  5
-    "Georgia",   //  6
-    "Peter",     //  7
-    "Pierce",    //  8
-    "Harrison",  //  9
-    "Julian",    // 10
-    "Ember",     // 11  (switched with Nico)
-    "Weston",    // 12
-    "Emma"       // 13
+    "Samantha",  //  1
+    "Kai",       //  2
+    "Harrison",  //  3
+    "Nico",      //  4
+    "Peter",     //  5
+    "Pierce",    //  6
+    "Sawyer",    //  7
+    "Julian",    //  8
+    "Joey",      //  9
+    "Emma"       // 10
   ],
 
   // One entry per inning.
@@ -346,82 +343,82 @@ var GAME = {
   // bench: list players sitting that inning (up to however many you have).
   innings: [
     { // ── INNING 1 ──
-      pitcher:          "Emma",
-      catcher:          "Weston",
+      pitcher:          "Harrison",
+      catcher:          "Kai",
       first:            "Peter",
-      second:           "Samantha",
-      third:            "Sawyer",
-      shortstop:        "Nico",
-      leftField:        "Harrison",
+      second:           "Joey",
+      third:            "Nico",
+      shortstop:        "Samantha",
+      leftField:        "Julian",
       leftCenterField:  "Pierce",
-      rightCenterField: "Ember",
-      rightField:       "Georgia",
-      bench: ["Kai", "Joey", "Julian"]
+      rightCenterField: "Sawyer",
+      rightField:       "Emma",
+      bench: []
     },
     { // ── INNING 2 ──
-      pitcher:          "Sawyer",
-      catcher:          "Georgia",
-      first:            "Harrison",
-      second:           "Emma",
-      third:            "Samantha",
-      shortstop:        "Ember",
-      leftField:        "Joey",
-      leftCenterField:  "Julian",
-      rightCenterField: "Weston",
-      rightField:       "Kai",
-      bench: ["Peter", "Pierce", "Nico"]
-    },
-    { // ── INNING 3 ──
-      pitcher:          "Joey",
-      catcher:          "Julian",
-      first:            "Samantha",
-      second:           "Harrison",
-      third:            "Pierce",
-      shortstop:        "Emma",
-      leftField:        "Kai",
-      leftCenterField:  "Weston",
-      rightCenterField: "Nico",
-      rightField:       "Georgia",
-      bench: ["Sawyer", "Ember", "Peter"]
-    },
-    { // ── INNING 4 ──
       pitcher:          "Peter",
       catcher:          "Kai",
       first:            "Sawyer",
-      second:           "Nico",
-      third:            "Pierce",
-      shortstop:        "Harrison",
-      leftField:        "Julian",
-      leftCenterField:  "Emma",
-      rightCenterField: "Samantha",
-      rightField:       "Weston",
-      bench: ["Ember", "Joey", "Georgia"]
-    },
-    { // ── INNING 5 ──
-      pitcher:          "Sawyer",
-      catcher:          "Kai",
-      first:            "Harrison",
       second:           "Emma",
-      third:            "Nico",
-      shortstop:        "Samantha",
-      leftField:        "Peter",
-      leftCenterField:  "Julian",
-      rightCenterField: "Ember",
-      rightField:       "Weston",
-      bench: ["Joey", "Georgia", "Pierce"]
-    },
-    { // ── INNING 6 ──
-      pitcher:          "Sawyer",
-      catcher:          "Ember",
-      first:            "Emma",
-      second:           "Harrison",
-      third:            "Pierce",
-      shortstop:        "Joey",
+      third:            "Joey",
+      shortstop:        "Pierce",
       leftField:        "Samantha",
       leftCenterField:  "Julian",
-      rightCenterField: "Georgia",
-      rightField:       "Weston",
-      bench: ["Kai", "Peter", "Nico"]
+      rightCenterField: "Harrison",
+      rightField:       "Nico",
+      bench: []
+    },
+    { // ── INNING 3 ──
+      pitcher:          "Sawyer",
+      catcher:          "Pierce",
+      first:            "Nico",
+      second:           "Emma",
+      third:            "Harrison",
+      shortstop:        "Julian",
+      leftField:        "Joey",
+      leftCenterField:  "Samantha",
+      rightCenterField: "Kai",
+      rightField:       "Peter",
+      bench: []
+    },
+    { // ── INNING 4 ──
+      pitcher:          "Nico",
+      catcher:          "Kai",
+      first:            "Emma",
+      second:           "Joey",
+      third:            "Harrison",
+      shortstop:        "Samantha",
+      leftField:        "Pierce",
+      leftCenterField:  "Peter",
+      rightCenterField: "Julian",
+      rightField:       "Sawyer",
+      bench: []
+    },
+    { // ── INNING 5 ──
+      pitcher:          "Emma",
+      catcher:          "Julian",
+      first:            "Joey",
+      second:           "Harrison",
+      third:            "Peter",
+      shortstop:        "Samantha",
+      leftField:        "Sawyer",
+      leftCenterField:  "Kai",
+      rightCenterField: "Nico",
+      rightField:       "Pierce",
+      bench: []
+    },
+    { // ── INNING 6 ──
+      pitcher:          "Joey",
+      catcher:          "Samantha",
+      first:            "Harrison",
+      second:           "Peter",
+      third:            "Emma",
+      shortstop:        "Pierce",
+      leftField:        "Kai",
+      leftCenterField:  "Nico",
+      rightCenterField: "Sawyer",
+      rightField:       "Julian",
+      bench: []
     }
   ]
 
