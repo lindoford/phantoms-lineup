@@ -325,19 +325,19 @@ var GAME = {
 
   // All players in batting order (1 through however many you have).
   batting: [
-    "Kai",       //  1
-    "Nico",      //  2
-    "Emma",      //  3
+    "Nico",      //  1
+    "Emma",      //  2
+    "Harrison",  //  3
     "Sawyer",    //  4
-    "Peter",     //  5
-    "Harrison",  //  6
-    "Samantha",  //  7
-    "Joey",      //  8
-    "Weston",    //  9
-    "Pierce",    // 10
-    "Georgia",   // 11
-    "Julian",    // 12
-    "Ember"      // 13
+    "Joey",      //  5
+    "Ember",     //  6
+    "Peter",     //  7
+    "Samantha",  //  8
+    "Kai",       //  9
+    "Weston",    // 10
+    "Julian",    // 11
+    "Pierce",    // 12
+    "Georgia"    // 13
   ],
 
   // One entry per inning.
@@ -353,10 +353,10 @@ var GAME = {
       third:            "Joey",
       shortstop:        "Samantha",
       leftField:        "Peter",
-      leftCenterField:  "Georgia",
+      leftCenterField:  "Emma",
       rightCenterField: "Pierce",
       rightField:       "Nico",
-      bench: ["Emma", "Julian", "Ember"]
+      bench: ["Ember", "Julian", "Georgia"]
     },
     { // ── INNING 2 ──
       pitcher:          "Joey",
@@ -379,10 +379,10 @@ var GAME = {
       third:            "Emma",
       shortstop:        "Julian",
       leftField:        "Peter",
-      leftCenterField:  "Georgia",
+      leftCenterField:  "Joey",
       rightCenterField: "Samantha",
       rightField:       "Weston",
-      bench: ["Kai", "Joey", "Pierce"]
+      bench: ["Kai", "Pierce", "Georgia"]
     },
     { // ── INNING 4 ──
       pitcher:          "Nico",
@@ -390,12 +390,12 @@ var GAME = {
       first:            "Joey",
       second:           "Sawyer",
       third:            "Harrison",
-      shortstop:        "Kai",
+      shortstop:        "Samantha",
       leftField:        "Peter",
-      leftCenterField:  "Georgia",
+      leftCenterField:  "Kai",
       rightCenterField: "Emma",
       rightField:       "Julian",
-      bench: ["Samantha", "Weston", "Ember"]
+      bench: ["Ember", "Weston", "Georgia"]
     },
     { // ── INNING 5 ──
       pitcher:          "Emma",
@@ -403,16 +403,16 @@ var GAME = {
       first:            "Sawyer",
       second:           "Joey",
       third:            "Harrison",
-      shortstop:        "Samantha",
-      leftField:        "Kai",
+      shortstop:        "Kai",
+      leftField:        "Samantha",
       leftCenterField:  "Weston",
       rightCenterField: "Pierce",
       rightField:       "Ember",
-      bench: ["Nico", "Georgia", "Julian"]
+      bench: ["Nico", "Julian", "Georgia"]
     },
     { // ── INNING 6 ──
       pitcher:          "Sawyer",
-      catcher:          "Georgia",
+      catcher:          "Kai",
       first:            "Joey",
       second:           "Emma",
       third:            "Nico",
@@ -421,7 +421,7 @@ var GAME = {
       leftCenterField:  "Samantha",
       rightCenterField: "Weston",
       rightField:       "Julian",
-      bench: ["Kai", "Harrison", "Pierce"]
+      bench: ["Harrison", "Pierce", "Georgia"]
     }
   ]
 
